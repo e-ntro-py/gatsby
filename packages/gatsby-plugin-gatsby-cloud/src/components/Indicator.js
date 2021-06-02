@@ -29,7 +29,7 @@ export function PreviewIndicator({ children }) {
   )
 }
 
-function GatsbyIndicatorButton(props) {
+export function GatsbyIndicatorButton(props) {
   return (
     <IndicatorButton
       testId="gatsby"
@@ -40,7 +40,7 @@ function GatsbyIndicatorButton(props) {
   )
 }
 
-function LinkIndicatorButton(props) {
+export function LinkIndicatorButton(props) {
   const [linkButtonCopyProps, setLinkButtonCopyProps] = useState()
 
   const copyLinkClick = () => {
@@ -80,7 +80,7 @@ function LinkIndicatorButton(props) {
   )
 }
 
-function InfoIndicatorButton(props) {
+export function InfoIndicatorButton(props) {
   return (
     <IndicatorButton
       testId="info"

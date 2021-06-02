@@ -56,6 +56,8 @@ const Style = () => (
           height: 32px;
           padding: 4px;
           border-radius: 4px;
+          border: none;
+          background: none;
         }
 
         [data-gatsby-preview-indicator-hoverable="true"]:hover {
